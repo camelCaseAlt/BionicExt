@@ -31,7 +31,7 @@ function loadMore() {
       if (word.length > 1 && !(word == " ")) {
         var midIndex = Math.floor(word.length / 1.8);
         var bolded =
-          '<time style="text-shadow: -0.5px 0 #000, 0.5px 0 #000;">' +
+          '<time style="text-shadow: 0 0.015em ,0 -0.045em,0.01em 0 ,-0.04em 0 ;">' +
           word.slice(0, midIndex) +
           "</time>" +
           word.slice(midIndex);
