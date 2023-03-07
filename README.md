@@ -1,7 +1,7 @@
 # Bionic text extension
 
 Makes reading text on a webpage easy!
-
+![](https://i.redd.it/vdqim71up5ma1.jpg)
 
 # Compatible
 
