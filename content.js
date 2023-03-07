@@ -29,9 +29,9 @@ function loadMore() {
     for (var j = 0; j < words.length; j++) {
       var word = words[j];
       if (word.length > 1 && !(word == " ")) {
-        var midIndex = Math.floor(word.length / 2);
+        var midIndex = Math.floor(word.length / 1.8);
         var bolded =
-          '<time style="font-weight:bold; text-shadow: 1px 0px 0px;">' +
+          '<time style="text-shadow: -0.5px 0 #000, 0.5px 0 #000;">' +
           word.slice(0, midIndex) +
           "</time>" +
           word.slice(midIndex);
