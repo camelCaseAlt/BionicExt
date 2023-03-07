@@ -1,0 +1,26 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "name": "Bionic Text",
+  "description": "Makes text in the current page, \"bionic\"",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "48": "icons/ficon.png"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["*://*/*"],
+  "action": {
+    "default_icon": "icons/ficon.png",
+    "default_title": "Activate bionic text"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["utils/jquery.js"],
+      "css": ["content.css"]
+    }
+  ]
+}
