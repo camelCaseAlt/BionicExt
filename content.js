@@ -1,5 +1,5 @@
 alert(
-  "\nActivating Bionic text, REFRESH to revert. \nMade by Hans\n\n(https://hans.pages.dev)"
+  "\nActivating Bionic text, REFRESH to revert. \nMade by Hans\n\n(https://github.com/camelCaseAlt)"
 );
 
 var elementsToBold = $("body")
