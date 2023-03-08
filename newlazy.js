@@ -45,3 +45,24 @@ $(window).scroll(function () {
     lazyLoader();
   }
 });
+
+// $(document).ready(function () {
+//   $("body")
+//     .find("*")
+//     .each(function () {
+//       var words = $(this)
+//         .contents()
+//         .filter(function () {
+//           return this.nodeType === 3 && this.textContent.trim().length > 0;
+//         });
+//       words.each(function () {
+//         if ($(this).parent().is(":visible")) {
+//           var text = $(this).text();
+//           var bolded = text.slice(0, Math.ceil(text.length / 2));
+//           var normal = text.slice(Math.ceil(text.length / 2), text.length);
+//           var newHtml = "<strong>" + bolded + "</strong>" + normal;
+//           $(this).replaceWith(newHtml);
+//         }
+//       });
+//     });
+// });
